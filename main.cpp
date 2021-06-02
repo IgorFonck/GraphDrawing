@@ -1,5 +1,6 @@
 #include <ogdf/fileformats/GraphIO.h>
 #include <ogdf/orthogonal/OrthoLayout.h>
+#include <ogdf/planarlayout/MixedModelLayout.h>
 #include <ogdf/planarity/EmbedderMinDepthMaxFaceLayers.h>
 #include <ogdf/planarity/PlanarSubgraphFast.h>
 #include <ogdf/planarity/PlanarizationLayout.h>
@@ -41,7 +42,7 @@ int main()
     EmbedderMinDepthMaxFaceLayers *emb = new EmbedderMinDepthMaxFaceLayers;
     pl.setEmbedder(emb);
  
-    OrthoLayout *ol = new OrthoLayout;
+    MixedModelLayout *ol = new MixedModelLayout;
     ol->separation(20.0);
     ol->cOverhang(0.4);
     pl.setPlanarLayouter(ol);
