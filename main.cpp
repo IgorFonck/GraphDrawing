@@ -6,20 +6,26 @@
 #include <ogdf/planarity/PlanarizationLayout.h>
 #include <ogdf/planarity/SubgraphPlanarizer.h>
 #include <ogdf/planarity/VariableEmbeddingInserter.h>
+#include <ogdf/basic/graph_generators.h>
+#include <ogdf/layered/DfsAcyclicSubgraph.h>
+#include <ogdf/fileformats/GraphIO.h>
  
 using namespace ogdf;
  
 int main()
 {
+
+    // Grafo comum, sem peso e com lista de adjacência.
     Graph G;
+    randomSimpleGraph(G, 20, 40);
+ 
+    DfsAcyclicSubgraph DAS;
+    DAS.callAndReverse(G);
+ 
+    // Adiciona atributos ao grafo
     GraphAttributes GA(G,
       GraphAttributes::nodeGraphics | GraphAttributes::nodeType |
       GraphAttributes::edgeGraphics | GraphAttributes::edgeType);
- 
-    if (!GraphIO::read(GA, G, "output-acyclic-graph.gml", GraphIO::readGML)) {
-        std::cerr << "Could not read output-acyclic-graph.gml" << std::endl;
-        return 1;
-    }
  
     for (node v : G.nodes)
     {
@@ -29,6 +35,7 @@ int main()
  
     PlanarizationLayout pl;
  
+    // Planariza o grafo para diminuir cruzamentos de arestas
     SubgraphPlanarizer crossMin;
  
     auto* ps = new PlanarSubgraphFast<int>;
@@ -42,15 +49,16 @@ int main()
     EmbedderMinDepthMaxFaceLayers *emb = new EmbedderMinDepthMaxFaceLayers;
     pl.setEmbedder(emb);
  
-    MixedModelLayout *ol = new MixedModelLayout;
+    // Layout ortogonal para grafos planares
+    OrthoLayout *ol = new OrthoLayout;
     ol->separation(20.0);
     ol->cOverhang(0.4);
     pl.setPlanarLayouter(ol);
  
     pl.call(GA);
  
-    GraphIO::write(GA, "output-ERDiagram.gml", GraphIO::writeGML);
-    GraphIO::write(GA, "output-ERDiagram.svg", GraphIO::drawSVG);
+    //GraphIO::write(GA, "mygraph.gml", GraphIO::writeGML);
+    GraphIO::write(GA, "mygraph20.svg", GraphIO::drawSVG);
  
     return 0;
 }
