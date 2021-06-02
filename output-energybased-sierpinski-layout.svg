@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" version="1.1" baseProfile="full" viewBox="13.5 13.5 74 74">
+	<g>
+		<g>
+			<polygon points="60.2679,20.5,61.3332,23.403,59.8417,23.5628," stroke="#000000" />
+			<path fill="none" d=" M63,46 L60.2679,20.5" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="65.6591,26.5,65.9969,29.5738,64.5106,29.3712," stroke="#000000" />
+			<path fill="none" d=" M63,46 L65.6591,26.5" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="39.5,48.7115,42.3943,47.6226,42.5662,49.1127," stroke="#000000" />
+			<path fill="none" d=" M63,46 L39.5,48.7115" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="68.5,26.2222,71.2405,27.6548,70.244,28.7759," stroke="#000000" />
+			<path fill="none" d=" M84,40 L68.5,26.2222" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="60.5,40,63.5,39.25,63.5,40.75," stroke="#000000" />
+			<path fill="none" d=" M84,40 L60.5,40" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="63.5,21.5,60.8483,19.909,61.909,18.8483," stroke="#000000" />
+			<path fill="none" d=" M60,18 L63.5,21.5" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="43.5,20.6053,46.3463,19.3966,46.5803,20.8782," stroke="#000000" />
+			<path fill="none" d=" M60,18 L43.5,20.6053" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="58.2273,37.5,57.752,34.4444,59.2458,34.5802," stroke="#000000" />
+			<path fill="none" d=" M60,18 L58.2273,37.5" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="40.5,27.75,42.8479,25.7375,43.5187,27.0792," stroke="#000000" />
+			<path fill="none" d=" M60,18 L40.5,27.75" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="43.5,21.3,46.568,20.9128,46.3893,22.4021," stroke="#000000" />
+			<path fill="none" d=" M66,24 L43.5,21.3" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="60.5,35,61.1708,31.9813,62.5125,32.6521," stroke="#000000" />
+			<path fill="none" d=" M66,24 L60.5,35" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="40.5,28.5536,43.3214,27.2879,43.5851,28.7645," stroke="#000000" />
+			<path fill="none" d=" M66,24 L40.5,28.5536" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="55.5,37.2059,52.9407,35.4703,54.0585,34.4701," stroke="#000000" />
+			<path fill="none" d=" M41,21 L55.5,37.2059" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="38.9375,26.5,39.2886,23.4277,40.6931,23.9544," stroke="#000000" />
+			<path fill="none" d=" M41,21 L38.9375,26.5" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="37.3571,46.5,37.0389,43.4241,38.5239,43.6362," stroke="#000000" />
+			<path fill="none" d=" M41,21 L37.3571,46.5" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="19.5,17.4167,22.5825,17.1701,22.3359,18.6497," stroke="#000000" />
+			<path fill="none" d=" M41,21 L19.5,17.4167" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="40.5,30.375,43.4901,31.1636,42.7672,32.4779," stroke="#000000" />
+			<path fill="none" d=" M58,40 L40.5,30.375" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="39.5,47.9286,41.962,46.0575,42.5529,47.4362," stroke="#000000" />
+			<path fill="none" d=" M58,40 L39.5,47.9286" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="37.125,46.5,36.5257,43.4663,38.0239,43.5412," stroke="#000000" />
+			<path fill="none" d=" M38,29 L37.125,46.5" stroke="#000000" />
+		</g>
+		<g>
+			<polygon points="19.5,18.4286,22.4768,19.2658,21.7326,20.5682," stroke="#000000" />
+			<path fill="none" d=" M38,29 L19.5,18.4286" stroke="#000000" />
+		</g>
+	</g>
+	<g>
+		<rect x="60.5" y="43.5" width="5" height="5" />
+	</g>
+	<g>
+		<rect x="81.5" y="37.5" width="5" height="5" />
+	</g>
+	<g>
+		<rect x="57.5" y="15.5" width="5" height="5" />
+	</g>
+	<g>
+		<rect x="63.5" y="21.5" width="5" height="5" />
+	</g>
+	<g>
+		<rect x="38.5" y="18.5" width="5" height="5" />
+	</g>
+	<g>
+		<rect x="55.5" y="37.5" width="5" height="5" />
+	</g>
+	<g>
+		<rect x="35.5" y="26.5" width="5" height="5" />
+	</g>
+	<g>
+		<rect x="14.5" y="81.5" width="5" height="5" />
+	</g>
+	<g>
+		<rect x="34.5" y="46.5" width="5" height="5" />
+	</g>
+	<g>
+		<rect x="14.5" y="14.5" width="5" height="5" />
+	</g>
+</svg>
