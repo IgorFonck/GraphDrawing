@@ -1,1 +1,0 @@
-c++ -Ibuild/include -Iinclude -o main.o -c main.cpp && c++ -o output_binary -Lbuild main.o -lOGDF -lCOIN && output_binary.exe

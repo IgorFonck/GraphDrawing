@@ -1,2 +1,7 @@
+.idea
 cmake-build-debug
 build
+mygraph-*
+output_times*
+main.o
+GraphDrawing.exe
