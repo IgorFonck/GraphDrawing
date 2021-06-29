@@ -53,9 +53,6 @@ int main(int argc,char* argv[])
         int edges_sparse =  i * 1.5;
         int edges_dense = (3 * i) - 6;
 
-        // Inicia o timer
-        auto start = std::chrono::system_clock::now();
-
         // Gera o grafo aleatório
         Graph G;
         if (is_sparse)
@@ -86,6 +83,9 @@ int main(int argc,char* argv[])
             char const *pchar = s.c_str();
             GA.label(v) = pchar;
         }
+
+        // Inicia o timer
+        auto start = std::chrono::system_clock::now();
 
         // Utiliza o algoritmo MixedModelLayout
         MixedModelLayout MML;
